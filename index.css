@@ -21,11 +21,9 @@ img {
 max-width: 100%;
 height: auto;
 }
-.wrapper_main {
+.experience-education {
     display: flex;
-    flex-direction: row;
-    align-items:stretch;
-    max-width: 1170px;
+    flex-wrap: wrap;
     padding-top: 15px;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -35,32 +33,52 @@ body {
     font-family: 'Roboto', sans-serif;
     }
 .wrapper_social-networks {
+    background-color: #C4C4C4;
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: flex-start;
-    gap: 30px;
+    gap: 0.9em;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
     padding-left: 30px;
     }
-.bio {
-    display: flex;
-    flex-direction: column;
-    background-color: #6D5DA8;
-    font-size: small;
-    color: #F2F2F2;
-}
-.workhistory {
-    outline: 2px solid steelblue;
-    width: fit-content;
-    font-size: small;
-}
 .ractangle {
     height: 5px;
     background: #C4C4C4;
     position: relative;
     top: -10px;
     left: 280px;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+}
+.hobbies {
+    display: flex;
+}
+.main-container_hobbies-bio_experience-education {
+    display: flex;
+    flex-direction: row-revers;
+    height: auto;
+    width: auto;
+    }
+.experience-education {
+    padding: 15px;
+    font-size: medium;
+    outline: 2px solid steelblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.hobbies-bio {
+    padding: 15px;
+    font-size: medium;
+    background-color: #6D5DA8;
+    color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
