@@ -1,26 +1,63 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
-    }
-      
-*, *:before, *:after {
-box-sizing: inherit;
+    height: 100%;
 }
-      
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-margin: 0;
-padding: 0;
-font-weight: normal;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
-     
-ol, ul {
-list-style: none;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
 }
-      
+
+ol,
+ul {
+    list-style: none;
+}
+
 img {
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
+
+.wrapper_origin {
+    display: flex;
+    height: 200vh;
+    flex-direction: column;
+    align-self: flex-start;
+    z-index: 1;
+}
+
+.wrapper_social-networks {
+    background-color: #C4C4C4;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-self: flex-start;
+    position: sticky;
+    top: 0px;
+    gap: 0.9em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
 .experience-education {
     display: flex;
     flex-wrap: wrap;
@@ -29,41 +66,29 @@ height: auto;
     padding-left: 30px;
     padding-right: 30px;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    }
-.wrapper_social-networks {
-    background-color: #C4C4C4;
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 0.9em;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-left: 30px;
-    }
+
 .ractangle {
     height: 5px;
     background: #C4C4C4;
     position: relative;
-    top: -10px;
-    left: 280px;
 }
+
 .education {
     display: flex;
     flex-direction: column;
 }
+
 .hobbies {
     display: flex;
 }
+
 .main-container_hobbies-bio_experience-education {
     display: flex;
     flex-direction: row-revers;
     height: auto;
     width: auto;
-    }
+}
+
 .experience-education {
     padding: 15px;
     font-size: medium;
@@ -71,8 +96,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 
 }
+
 .hobbies-bio {
     padding: 15px;
     font-size: medium;
